@@ -1,0 +1,26 @@
+{
+  "name": "@bo-shared-types/shared-package",
+  "version": "1.0.0",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "npx tsup --dts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreiusatii06/shared-package.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "tsup": "^8.3.5",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
